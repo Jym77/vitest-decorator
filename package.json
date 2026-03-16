@@ -1,0 +1,15 @@
+{
+  "name": "vitest-decorator",
+  "version": "1.0.0",
+  "description": "MNWE for vitest-dev/vitest/issues/9873",
+  "main": "index.js",
+  "repository": "git@github.com:Jym77/vitest-decorator.git",
+  "author": "Jean-Yves Moyen <jym@siteimprove.com>",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "yarn@4.13.0",
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}

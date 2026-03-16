@@ -4,7 +4,7 @@ on:
 
 jobs:
   test:
-    name: vitest-4.1.0
+    name: vitest-4.0.18
     runs-on: ubuntu-latest
 
     steps:
@@ -21,4 +21,4 @@ jobs:
         run: yarn up vitest@4.0.18
 
       - name: Run tests
-        run: yarn test
+        run: yarn vitest

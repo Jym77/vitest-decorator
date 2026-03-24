@@ -1,10 +1,10 @@
-name: vitest-4.0.18
+name: vite 7.3.1
 on:
   workflow_dispatch:
 
 jobs:
   test:
-    name: vitest-4.0.18
+    name: vite 7.3.1
     runs-on: ubuntu-latest
 
     steps:
@@ -17,8 +17,8 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Pick Vitest version 4.0.18
-        run: yarn up vitest@4.0.18
+      - name: Pick Vite version 7.3.1
+        run: yarn set resolution "vite@npm:^6.0.0 || ^7.0.0 || ^8.0.0-0" "npm:7.3.1"
 
       - name: Run tests
         run: yarn vitest
